@@ -1,0 +1,82 @@
+html {
+scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    background-color: #FAF9F6;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #b8001f;
+    z-index: 1000; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+    width: 80px;
+    transition: 1s ease;
+    flex: 0 0 auto;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+}
+
+.navegar {
+    background-color: #b8001f;  
+}
+
+.navegar ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+
+
+.navegar {
+    -webkit-user-select: none;
+    user-select: none; 
+}
+
+
+.navegar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navegar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px; 
+}
+
+/* Espaço entre as seções */
+.espaço {
+    padding: 60px 20px;
+    min-height: 100vh;
+    margin-bottom: 40px; /* Espaço entre as seções */
+}
+
+/* Estilo das caixas */
+.caixa {
+    border: 2px solid #b8001f; /* Cor da borda da caixa */
+    background-color: #f4f1ea; /* Cor de fundo da caixa */
+    padding: 20px; /* Espaçamento interno da caixa */
+    margin: 20px 0; /* Espaçamento externo entre as caixas */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para a caixa */
+    text-decoration: none;
+}
+
+.caixa p {
+    font-size: 18px; /* Tamanho da fonte do texto dentro da caixa */
+    color: #171616; /* Cor do texto */
+}
